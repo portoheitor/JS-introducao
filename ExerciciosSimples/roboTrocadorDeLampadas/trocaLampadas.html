@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estiloPadrao.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Robo Trocador de Lampada</h1>
+    </header>
+
+    <section>
+        <div id="msg">
+            <h1>Deseja chamar o NinjoBo - Trocador de Lampada? </h1>
+            <h2 id="resp"><input type="button" value="Sim" onclick="roboTrocaLampada()"> ou <input type="button"
+                    value="Nao" onclick="naoChamar()"></h2>
+
+
+            <script>
+                function roboTrocaLampada() {
+                    let passo1 = confirm("Algum comodo com sinal de Lampada queimada?")
+                    if (passo1 == true) {
+                        alert("Sair do modo Stand-By e ir pegar escada e lampada nova na garagem!")
+                    } else if (passo1 == false) {
+                        alert("Permanecer em modo Stand-By ate algum sinal positivo para lampada queimada!");
+                        window.location.reload()
+                    }
+
+                    let passo2 = alert("Com escada e lâmpada em posse ir até cômodo com sinal positivo de lâmpada queimada")
+
+                    let passo3 = confirm("Ao acionar o interruptor , a lampada acende?")
+                    if (passo3 == true) {
+                        alert("Devolver escada e lampada nova na garagem e Retornar ao modo Stand-By pois houve um ALARME FALSO!!!").window.location.reload();
+
+                    } else if (passo3 == false) {
+                        alert("Posicionar escada abaixo da lampada queimada!");
+                    }
+
+                    let passo4 = confirm("A escada esta posicionada abaixo da lampada queimada?")
+                    if (passo4 == true) {
+                        alert("Subir na escada e desencaixar lampada queimada do bocal")
+                    } else if (passo4 == false) {
+                        alert("Posicione a escada abaixo da lampada e suba logo nao temos o dia todo !")
+                    }
+                    let passo5 = confirm("Desencaixou a lampada do bocal?")
+                    if (passo5 == true) {
+                        alert("Agora desca ate o solo e pegue a lampada nova e suba novamente na escada e encaixe a lampada nova no bocal!")
+                    } else if (passo5 == false) {
+                        alert("Agaurdando encaixe da lampada nova ! ! !")
+                    }
+                    let passo6 = confirm("Encaixou a lampada nova?")
+                    if (passo6 == true) {
+                        alert("Desça da escada , pegue a lampada queimada e escada e retorne para garagem!")
+                    } else if (passo6 == false) {
+                        alert("Aguardadndo descer da escada ...... -.-")
+                    }
+                    let passo7 = confirm("Ja chegou na garagem ?")
+                    if (passo7 == true) {
+                        alert("Guarde a escada no local correto,e jogue a lampada no descarte de vidros !")
+                    } else if (passo7 == false) {
+                        alert("Vamos vamos nao temos tempo a perder !")
+                    }
+                    let passo8 = confirm("Ja guardou a escada e jogou lampada no lixo?")
+                    if (passo8 == true) {
+                        alert("Entrando no modo Stand-By ! Aguardando o proximo Chamado !!!!")
+                    } else if (passo8 == false) {
+                        alert("Tarde de mais !  Reiniciando Processos e entrando em Stand-By")
+                    }
+
+                }
+
+                function naoChamar() {
+                    naoChamar = document.querySelector('h2#resp')
+                    naoChamar.innerHTML = "SO QUERIA TRABALHAR ....<img src= https://media.istockphoto.com/id/1441343762/pt/vetorial/sad-bot-robot-head-icon-with-paper-cut-effect-on-blank-background.jpg?s=170667a&w=0&k=20&c=oBoVyhmREnbGSulFXb_Ru0oGzty2WnW_iY0yPCeHluw=>"
+
+                }
+
+            </script>
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy;Heitor Porto</p>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
