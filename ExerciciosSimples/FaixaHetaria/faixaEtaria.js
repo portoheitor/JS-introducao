@@ -8,12 +8,14 @@ function dados() {
     let sexo = document.getElementsByName('gen')
     let img = document.createElement('img')
     let genero = ''
+   
     if (sexo[0].checked) {
+        if(anoNascimento > 2023){alert("Ano de Nascimento Invalido");window.location.reload()}
         genero = 'Masculino'
         if (idade >= 0 && idade < 10) {
             resp.innerHTML = `Crianca do sexo ${genero} com ${idade} anos de idade <br>`
             img.setAttribute('src', 'imgs/bebe-masc.png')
-            resp.appendChild(img) 
+            resp.appendChild(img)
         } else if (idade < 20) {
             resp.innerHTML = `Jovem do sexo ${genero} com ${idade} anos de idade <br>`
             img.setAttribute('src', 'imgs/jovem-masc.png')
@@ -29,11 +31,13 @@ function dados() {
         }
 
     } else if (sexo[1].checked) {
+        if(anoNascimento > 2023){alert("Ano de Nascimento Invalido");window.location.reload()}
+        
         genero = 'Feminino'
         if (idade >= 0 && idade < 10) {
             resp.innerHTML = `Crianca do sexo ${genero} com ${idade} anos de idade <br>`
             img.setAttribute('src', 'imgs/bebe-fem.png')
-            resp.appendChild(img) 
+            resp.appendChild(img)
         } else if (idade < 20) {
             resp.innerHTML = `Jovem do sexo ${genero} com ${idade} anos de idade <br>`
             img.setAttribute('src', 'imgs/jovem-fem.png')
@@ -46,11 +50,11 @@ function dados() {
             resp.innerHTML = `Idoso do sexo ${genero} com ${idade} anos de idade <br>`
             img.setAttribute('src', 'imgs/idoso-fem.png')
             resp.appendChild(img)
-            
+
         }
+        
     }
 
-    
 
 
 }
