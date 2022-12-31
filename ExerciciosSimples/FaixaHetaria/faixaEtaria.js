@@ -10,7 +10,7 @@ function dados() {
     let genero = ''
    
     if (sexo[0].checked) {
-        if(anoNascimento > 2023){alert("Ano de Nascimento Invalido");window.location.reload(true)}
+        if(anoNascimento > 2023){alert("Ano de Nascimento Invalido");location.reload()}
         genero = 'Masculino'
         if (idade >= 0 && idade < 10) {
             resp.innerHTML = `Crianca do sexo ${genero} com ${idade} anos de idade <br>`
@@ -31,7 +31,7 @@ function dados() {
         }
 
     } else if (sexo[1].checked) {
-        if(anoNascimento > 2023){alert("Ano de Nascimento Invalido");window.location.reload(true)}
+        if(anoNascimento > 2023){alert("Ano de Nascimento Invalido");location.reload()}
         
         genero = 'Feminino'
         if (idade >= 0 && idade < 10) {
