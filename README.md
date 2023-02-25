@@ -1,5 +1,6 @@
 <h1>Primeiras interacoes ultilizando JS 🤖</h1>
-<p>Foi ultilizado NODE na VERSAO v18.12.1</p><a href="https://github.com/portoheitor"><img src="https://photos.google.com/photo/AF1QipMj99bjLtqLt6q4Xyh8e5d-9I4q-8rpm5UfBNqV"></a><br><br>
+<p>Foi ultilizado NODE na VERSAO v18.12.1</p>
+[![alttext](https://photos.google.com/photo/AF1QipMj99bjLtqLt6q4Xyh8e5d-9I4q-8rpm5UfBNqV)](https://github.com/portoheitor)<br><br>
 <h2>Exercicios Simples</h2>
 <p><strong><a
             href="http://portoheitor.github.io/primeirasInteracoes/ExerciciosSimples/FaixaHetaria/index.html">Exercicio
@@ -17,3 +18,6 @@
     trocar a lamapda caso aja a necessidade.</p>
 
 
+[![alttext](imageurl)](linkurl)
+https://photos.google.com/photo/AF1QipMj99bjLtqLt6q4Xyh8e5d-9I4q-8rpm5UfBNqV
+https://github.com/portoheitor
