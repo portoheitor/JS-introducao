@@ -1,5 +1,5 @@
 <h1>Primeiras interacoes ultilizando JS 🤖</h1>
-<p>Foi ultilizado NODE na VERSAO v18.12.1</p><a href="https://github.com/portoheitor"></a><br><br>
+<p>Foi ultilizado NODE na VERSAO v18.12.1</p><a href="https://github.com/portoheitor">GitHub</a><br><br>
 <h2>Exercicios Simples</h2>
 <p><strong><a
             href="http://portoheitor.github.io/primeirasInteracoes/ExerciciosSimples/FaixaHetaria/index.html">Exercicio
