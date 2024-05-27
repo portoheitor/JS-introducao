@@ -1,6 +1,6 @@
 <h1>Primeiras interacoes ultilizando JS 🤖</h1>
 <p>Foi ultilizado NODE na VERSAO v18.12.1</p>
-👉 <a href="https://portoheitor.github.io/JS-introducao/" /a>
+👉 https://portoheitor.github.io/JS-introducao/
 <br><br>
 <h2>Exercicios Simples</h2>
 
